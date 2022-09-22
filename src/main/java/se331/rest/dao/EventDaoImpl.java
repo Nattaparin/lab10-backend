@@ -28,7 +28,6 @@ public class EventDaoImpl implements EventDao {
                 .date("January 28, 2022")
                 .time("12:00")
                 .petAllowed(true)
-
                 .build());
         eventList.add(Event.builder()
                 .id(456L)
